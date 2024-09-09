@@ -19,6 +19,10 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+import sys
+sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
 from utils.my_utils import get_current_YYYY_MM_DD_hh_mm_ss_ms
 
 

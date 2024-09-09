@@ -20,7 +20,8 @@ import torch
 from torch.autograd import Variable
 import torchvision.transforms as T
 
-from dgl.geometry import farthest_point_sampler
+# NOTE: remove the unnecessary import that causes error
+# from dgl.geometry import farthest_point_sampler
 import open3d as o3d
 
 from PIL import Image, ImageEnhance
